@@ -6,10 +6,10 @@ Lightweight function to turn `/page/#` style pagination to infinite scroll in Wo
 
 ```
 
-// set the pagination path
+// set the pagination path ( defaults to 'path/' )
 infiniteScroll.path = 'path/';
 
-// set the next page to get
+// set the next page to get ( defaults to 2 )
 infiniteScroll.page = 4
 
 // set the container up for infinite scroll
